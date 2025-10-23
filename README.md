@@ -38,18 +38,32 @@ Borrow out = A'Bin + A'B + BBin
 
 **Truthtable**
 
+<img width="428" height="318" alt="image" src="https://github.com/user-attachments/assets/bd32d028-7e6f-48fb-b634-3104002778b1" />
+<img width="608" height="622" alt="image" src="https://github.com/user-attachments/assets/4f2db67a-5c3f-49dd-947f-67c388bb70d4" />
+
+
+
 **Procedure**
 
 Write the detailed procedure here
 
 **Program:**
 
+ module FAHA1 (a,b,c,x,y,z,sum,dif,car,bor); input a,b,c,x,y,z; output sum,dif,car,bor; assign sum = a^b^c; assign car = a&b |
+ a&c | b&c; assign dif = x^y^z; assign bor = ~x&z | ~x&y | y&z; endmodule
+
 /* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
 */
 
 **RTL Schematic**
 
+<img width="520" height="387" alt="image" src="https://github.com/user-attachments/assets/fd6bb49b-5fef-41e2-99b8-a8a57436a261" />
+
+
 **Output Timing Waveform**
+
+<img width="747" height="142" alt="image" src="https://github.com/user-attachments/assets/f36b66c2-7fa4-4736-a3aa-208b1bec04db" />
+
 
 **Result:**
 
